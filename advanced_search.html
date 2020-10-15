@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body>
+        <div id = "bar">
+            <span><a href = "file:///C:/Users/jzhao/OneDrive/Desktop/cs50W/week0/Project0/Search/index.html"><p>Search</p></a></span>
+            <span><a href = "file:///C:/Users/jzhao/OneDrive/Desktop/cs50W/week0/Project0/Search/image_search.html"><p>Image Search</p></a></span>
+        </div>
+        <div id = "container_advanced"> 
+            <div class = "header">
+                Advanced Search
+            </div>
+            <hr>
+
+            <div class = "form-div">
+                <div style = "height:42px;">Find pages with...</div>
+
+                <form action = "https://www.google.com/search" >
+                
+                    <div style>
+
+                        <div>
+                            <span class = "text">all these words:</span>
+
+                            <span><input name="as_q" class = "input" type = "text"></span>
+                        </div>
+
+                        <div>
+                            <span class = "text">this exact word or phrase:</span>
+
+                            <span><input name="as_epq" class = "input" type = "text"></span>
+                        </div>
+
+                        <div>
+                            <span class = "text">any of these words:</span>
+
+                            <span><input name="as_oq" class = "input" type = "text"></span>
+                        </div>
+
+                        <div>
+                            <span class = "text">none of these words::</span>
+
+                            <span><input name="as_eq" class = "input" type = "text"></span>
+                        </div>
+
+                        <div>
+                            <span class = "text"></span>
+                            <span class = "input_frame" ><input class = "submit" type = "submit" value = "Advanced Search"></span>
+                            
+                        </div>
+                        
+
+
+                    </div>
+
+                </form>
+
+                
+
+            </div>
+
+            
+        </div>
+    </body>
+</html>

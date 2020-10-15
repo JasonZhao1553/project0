@@ -1,0 +1,117 @@
+#bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-top: 10px;
+  background-color: #f1f1f1;
+}
+
+#bar span {
+  padding-right: 30px;
+}
+
+#bar span p {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#container {
+  text-align: center;
+  padding-top: 109px;
+}
+
+#container img {
+  height: 92px;
+  width: 272px;
+}
+
+#container #buttons input {
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  height: 36px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  font-size: 14px;
+  outline: none;
+}
+
+#container #search {
+  vertical-align: center;
+  padding: 20px;
+  min-width: 300px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+#container #search input {
+  border: 1px solid #dfe1e5;
+  border-radius: 25px;
+  height: 44px;
+  outline: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 30%;
+}
+
+#container #search .glass {
+  position: absolute;
+  padding: 10px 12px;
+  pointer-events: none;
+}
+
+#container_advanced {
+  text-align: left;
+}
+
+.header {
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+.form-div {
+  max-width: 1140px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+.text {
+  display: inline-block;
+  min-width: 167px;
+  width: 16%;
+  height: 42px;
+  color: #222;
+  font-size: 13px;
+}
+
+.input {
+  min-width: 167px;
+  vertical-align: middle;
+  width: 50%;
+  height: 29px;
+  padding: 1px 8px;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  outline-color: lightblue;
+}
+
+.submit {
+  background-color: #4d90fe;
+  color: #fff;
+  border: 1px solid #3079ed;
+}
+
+.input_frame {
+  display: inline-block;
+  min-width: 167px;
+  width: 50%;
+  height: 29px;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
